@@ -9,87 +9,86 @@ Glossário de comandos
 :Data: 01/07/2015
 
 cat
-  Descrição do comando
+  Junta arquivos e imprime na tela o conteúdo. Exemplo: cat /urs/local/bin/senha; cat /etc/group
 
 
 cd
-  Descrição do comando
+ Cria um diretório. Exemplos: cd /home/info4av2015/; cd /var/www/html/so
 
 
 cowsay
-  Descrição do comando
+  É um comando que gera imagens com mensagens. Exemplos: cowsay -f
 
 
 echo
-  Descrição do comando
+ Serve para verficar o conteúdo de uma variável de ambiente. Exemplos : echo "$PATH"; echo /*.
 
 
 env
-  Descrição do comando
+  Exibe as variáveis de ambiente. Exemplos: env
 
 
 exit
-  Descrição do comando
+  Terminar uma sessão. Exemplos: exit.
 
 
 help
-  Descrição do comando
+  Arquivo de ajuda do comando que foi digitado. Exemplos : help ssh; ls --help.
 
 
 HISTTIMEFORMAT="%d/%m/%y"
-  Descrição do comando
+    Listar os comandos feitos com a data e horário. Exemplo: HISTTIMEFORMAT="%d/%m/%y"
 
 
 hostname
-  Descrição do comando
+  Exibe o nome da máquina. Exemplo:  hostname.
 
 
 ifconfig
-  Descrição do comando
+ Visualiza o IP da nossa máquina. Ex: ifconfig.
 
 
 last
-  Descrição do comando
+ Indica o último login dos usuários logados. Exemplo: last. 
 
 
 lastb
-  Descrição do comando
+ Indica o último login de um usuário em específico. Exemplos: lastb jose; lastb maria. 
 
 
 ls
-  Descrição do comando
+  Lista todos os arquivos do diretório. Exemplo: ls -a 
 
 
 mkdir
-  Descrição do comando
+  cria um diretório. Exemplo: mkdir $disciplina.
 
 
 nome="fulano
-  Descrição do comando
+  Cria uma variável nome. Ex: nome="Fulano".
 
 
 passswd
-  Descrição do comando
+  Mudar a password(senha) do usuário logado. Exemplo: passwd
 
 
 pwd
-  Descrição do comando
-
+  Mostra-nos o caminho por inteiro da diretório em que nos encontramos em dado momento. Exemplo: pwd.
 
 set
-  Descrição do comando
+  Define variáveis da sessão. Exemplo: bash; shell.
 
 
 tree
-  Descrição do comando
+  Executa a mesma função do ls, porém em forma de árvore. Ex: tree -d
 
 
 tty
-  Descrição do comando
+  Mostra a minha máquina,ou seja, dá informações sobre o terminal que um usuário está no momento. Ex : tty
 
 
 vim
-  Descrição do comando
+  Editor de texto full-screen melhorado. Exemplos: vim.
 
 
 wait
@@ -97,24 +96,23 @@ wait
 
 
 wall
-  Descrição do comando
+  Envia uma mensgame para a aárea de notificação do sistema gráfico. Exemplos: wall
 
 
 which
-  Descrição do comando
-
+  Mostra o cmainho de um comando espéfico. Exemplos: which ls; which ifconfig.
 
 while
   Descrição do comando
 
 
 who
-  Descrição do comando
+  Mostra quem está logado na máquina. Exemplo: who
 
 
 whoami
-  Descrição do comando
+  Diz-nos quem é o dono da shell. Exemplo: whoami
 
 write
-  Descrição do comando
+  Escreve para outros usuários logados. Ex: cowsay -f "Jessica feia" | write jessica.
 
